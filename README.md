@@ -2,4 +2,5 @@
 Based on the works of 
 * NehaKaranjkar Neha Karanjkar
 * tusharlone Tushar Lone
-Available here : https://github.com/SupplyChainSimulation/InventOpt?tab=readme-ov-file
+
+Available here : _https://github.com/SupplyChainSimulation/InventOpt?tab=readme-ov-file_
