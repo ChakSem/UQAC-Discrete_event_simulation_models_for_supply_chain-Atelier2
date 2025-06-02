@@ -1,0 +1,142 @@
+@startuml
+!theme plain
+skinparam backgroundColor #FEFEFE
+skinparam activity {
+  BackgroundColor #E8F5E9
+  BorderColor #4CAF50
+  FontColor #1B5E20
+}
+
+title Démarche d'Optimisation de Chaîne d'Approvisionnement par Simulation
+
+start
+
+:1. MODÉLISATION;
+partition "Construction du Modèle" #E3F2FD {
+  :Définir composants SimPy:
+  • SC_node (acteurs)
+  • Container (inventaire)
+  • Monitor (surveillance)
+  • Auto-order (commandes);
+  
+  :Implémenter politique (S,s):
+  • Seuil réapprovisionnement (s)
+  • Capacité maximale (S);
+}
+
+:2. SIMULATION;
+partition "Exécution Stochastique" #FFF3E0 {
+  :Générer arrivées clients:
+  Poisson λ=20;
+  
+  :Collecter métriques:
+  • Profit/Coûts
+  • Niveau service
+  • Inventaire moyen;
+}
+
+:3. ANALYSE COÛT-PRÉCISION;
+split
+  -[#FF5252]-> 100 simulations;
+  :RSE = 4%
+  Temps = 6s;
+split again
+  -[#4CAF50]-> 200 simulations;
+  #CCFFCC:**OPTIMAL**
+  **RSE = 2%**
+  **Temps = 12s**;
+split again
+  -[#FFC107]-> 400 simulations;
+  :RSE = 1%
+  Temps = 24s;
+end split
+
+:4. EXPLORATION DESIGN SPACE;
+partition "Recherche Exhaustive" #F3E5F5 {
+  :Définir grille de recherche:
+  • 8 paramètres
+  • 4 niveaux par axe
+  • 65,536 points total;
+  
+  :Paralléliser calculs:
+  • 64 cores
+  • 2 jours total;
+}
+
+:5. MÉTA-MODÉLISATION;
+split
+  -[#2196F3]-> GPR/Kriging;
+  #E3F2FD:**Méthode Préférée**
+  • Surface lisse
+  • Haute précision
+  • Temps élevé;
+split again
+  -[#9E9E9E]-> Neural Network;
+  :• Construction rapide
+  • Minima locaux
+  • Moins précis;
+end split
+
+:6. OPTIMISATION;
+partition "Recherche Optimum" #E8F5E9 {
+  :Sélection optimiseur;
+  split
+    :COBYLA;
+  split again
+    #C8E6C9:**Powell**
+    (Plus rapide);
+  split again
+    :SLSQP;
+  split again 
+    :Nelder-Mead;
+  end split
+  
+  :20 runs avec restart aléatoire;
+  :Validation contre référence;
+}
+
+:7. ANALYSE RÉSULTATS;
+if (Profit net > 0 ?) then (NON)
+  #FFCDD2:**ALERTE: PERTES**
+  -250 à -1000 Rs/jour;
+  
+  :DIAGNOSTIC:
+  • Coûts > Revenus
+  • Modèle non viable;
+  
+  :RECOMMANDATIONS;
+  split
+    :Réduire H
+    (10→5 Rs);
+  split again
+    :Augmenter P
+    (100→150 Rs);
+  split again
+    :Optimiser C
+    (Consolidation);
+  end split
+  
+else (OUI)
+  #C8E6C9:Paramètres optimaux:
+  s = 50-100
+  S = 300-350;
+endif
+
+:8. DÉVELOPPEMENT InventOpt;
+partition "Outil Open Source" #E1F5FE {
+  :• Interface GUI
+  • Bibliothèque Python
+  • Documentation
+  • Généralisation;
+}
+
+stop
+
+legend right
+  |= Légende |
+  | <#CCFFCC> Optimal |
+  | <#FFCDD2> Problème |
+  | <#E3F2FD> Préféré |
+endlegend
+
+@enduml
