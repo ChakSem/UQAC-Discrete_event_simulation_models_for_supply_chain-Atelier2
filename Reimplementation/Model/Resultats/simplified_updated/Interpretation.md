@@ -68,7 +68,7 @@ D'après les résultats obtenus, notre chaîne d'approvisionnement présente un 
 2. **Sur-stockage** : On maintient trop d'inventaire pour garantir 100% de service
 3. **Coûts de commande** : 1000 Rs par commande pèsent lourd
 
-#### 💡 **Mes recommandations d'étudiant**
+#### **Les recommandations**
 
 1. **Accepter un niveau de service de 95%** : Ça pourrait diviser les coûts par deux
 2. **Négocier les coûts** : 
@@ -79,20 +79,17 @@ D'après les résultats obtenus, notre chaîne d'approvisionnement présente un 
 
 ### 4. **Conclusion personnelle**
 
-Ce projet m'a vraiment fait comprendre pourquoi Amazon et autres géants du e-commerce ont mis des années avant d'être rentables. Avoir un stock parfait coûte une fortune ! 
+Ce projet nous fait comprendre pourquoi Amazon et autres géants du e-commerce ont mis des années avant d'être rentables. Avoir un stock parfait coûte une fortune !
 
 La simulation montre clairement qu'il faut trouver le bon équilibre entre :
 - Satisfaire les clients (service)
 - Rester rentable (profit)
 - Gérer intelligemment les stocks (optimisation)
 
-Si c'était mon entreprise, je commencerais par accepter quelques ruptures de stock (passer à 95% de service) et je négocierais agressivement les coûts de stockage. Mieux vaut un client sur 20 qui ne trouve pas son produit que de faire faillite !
+Si c'était notre entreprise, je commencerais par accepter quelques ruptures de stock (passer à 95% de service) et je négocierais agressivement les coûts de stockage. Mieux vaut un client sur 20 qui ne trouve pas son produit que de faire faillite !
 
 ### 5. **Limites de l'étude**
 
-En toute honnêteté, notre modèle simplifié ne capture pas toute la complexité :
 - On n'a testé qu'un seul détaillant (au lieu de 2)
 - La demande est peut-être sous-estimée
 - Les coûts fixes ne sont pas modélisés
-
-Mais pour un premier modèle, ça donne déjà une bonne idée du problème et des pistes d'amélioration.
