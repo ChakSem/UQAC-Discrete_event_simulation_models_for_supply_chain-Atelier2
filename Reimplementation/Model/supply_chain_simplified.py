@@ -1,6 +1,5 @@
 ## 📄 Fichier `supply_chain_simplified.py`
 
-```python
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
