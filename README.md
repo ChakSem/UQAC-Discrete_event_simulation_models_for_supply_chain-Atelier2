@@ -1,8 +1,8 @@
 # UQAC – Modèles de simulation à événements discrets pour la chaîne d'approvisionnement – Atelier 2
 
-## Étudiant·e·s
+## étudiants
 
-Ce dépôt est le fruit d’une collaboration entre deux étudiant·e·s de l’Université du Québec à Chicoutimi (UQAC) :
+Ce dépôt est le fruit d’une collaboration entre deux étudiants de l’Université du Québec à Chicoutimi (UQAC) :
 
 - **CHAKORI SEMMANE Alaâ**
 - **MANSOURI Salim**
@@ -13,7 +13,7 @@ Ce dépôt a été réalisé dans le cadre de l’**Atelier 2** à l’UQAC, dan
 
 ## Contexte et objectif
 
-L’objectif de cet atelier est d’approfondir la compréhension des techniques liées à l’IA en s’engageant dans une démarche de recherche académique. En équipes de deux, nous avons endossé le rôle de jeunes chercheur·e·s, chargé·e·s d’explorer des contributions scientifiques existantes, d’en comprendre les modèles, et d’envisager comment les réutiliser ou les étendre.
+L’objectif de cet atelier est d’approfondir la compréhension des techniques liées à l’IA en s’engageant dans une démarche de recherche académique. En équipes de deux, nous avons endossé le rôle de jeunes chercheur, chargé d’explorer des contributions scientifiques existantes, d’en comprendre les modèles, et d’envisager comment les réutiliser ou les étendre.
 
 Pour ce projet, nous avons choisi d’étudier le travail de :
 
