@@ -1,0 +1,18 @@
+{
+    "date": "2025-06-19 12:08",
+    "configuration_optimale": {
+        "S_grossiste": 604,
+        "s_grossiste": 202,
+        "S_detaillant": 100,
+        "s_detaillant": 60
+    },
+    "performance": {
+        "profit_quotidien": 1527.6624579124582,
+        "profit_annuel": 557596.7971380473,
+        "taux_service_estime": 0.95,
+        "stock_total_moyen": 412.4
+    },
+    "algorithme_recommande": "Differential Evolution",
+    "temps_optimisation": 90.59887290000916,
+    "nombre_evaluations": 1215
+}

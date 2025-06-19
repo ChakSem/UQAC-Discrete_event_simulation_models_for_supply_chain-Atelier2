@@ -1,0 +1,6 @@
+Algorithme,Profit optimal (€/jour),Temps calcul (s),Nb évaluations,S_grossiste,s_grossiste,S_détaillant,s_détaillant
+Monte Carlo,665.16,38.3,500,745,314,275,41
+Grid Search,1480.98,29.6,600,600,200,100,65
+GPR Bayesian,1447.67,15.7,50,623,242,111,87
+Differential Evolution,1527.66,90.6,1215,604,202,100,60
+Hybrid (GPR + Local),1448.09,11.0,40,623,242,111,87

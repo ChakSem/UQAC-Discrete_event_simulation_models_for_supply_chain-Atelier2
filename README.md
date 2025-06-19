@@ -1,48 +1,49 @@
+# UQAC – Modèles de simulation à événements discrets pour la chaîne d'approvisionnement – Atelier 2
 
-# UQAC – Discrete Event Simulation Models for Supply Chain – Atelier 2
+## Étudiant·e·s
 
-## Students
+Ce dépôt est le fruit d’une collaboration entre deux étudiant·e·s de l’Université du Québec à Chicoutimi (UQAC) :
 
-This repository is the result of a collaborative effort by two students from the Université du Québec à Chicoutimi (UQAC):
+- **CHAKORI SEMMANE Alaâ**
+- **MANSOURI Salim**
 
-* **CHAKORI SEMMANE Alaâ**
-* **MANSOURI Salim** 
+## Informations sur le cours
 
-## Course Information
+Ce dépôt a été réalisé dans le cadre de l’**Atelier 2** à l’UQAC, dans un programme d’études supérieures en **intelligence artificielle** et **recherche opérationnelle**.
 
-This repository was created as part of **Atelier 2** at the Université du Québec à Chicoutimi (UQAC), within the context of a graduate program focused on Artificial Intelligence and Operations Research.
+## Contexte et objectif
 
-## Context and Purpose
+L’objectif de cet atelier est d’approfondir la compréhension des techniques liées à l’IA en s’engageant dans une démarche de recherche académique. En équipes de deux, nous avons endossé le rôle de jeunes chercheur·e·s, chargé·e·s d’explorer des contributions scientifiques existantes, d’en comprendre les modèles, et d’envisager comment les réutiliser ou les étendre.
 
-The goal of this workshop is to allow students to deepen their understanding of AI-related techniques by engaging with real academic research. Working in teams of two, we take on the role of junior researchers and are tasked with exploring existing scientific contributions, understanding their models, and reflecting on how they can be reused or extended.
+Pour ce projet, nous avons choisi d’étudier le travail de :
 
-For this project, we selected and studied the work of:
+- **Neha Karanjkar**
+- **Tushar Lone**
 
-* **Neha Karanjkar**
-* **Tushar Lone**
+Disponible sur GitHub : [InventOpt – SupplyChainSimulation](https://github.com/SupplyChainSimulation/InventOpt)
 
-Available at: [InventOpt GitHub Repository](https://github.com/SupplyChainSimulation/InventOpt)
+Ce projet propose des outils d’**optimisation basés sur la simulation** pour des systèmes d’inventaire et de chaîne d’approvisionnement. Il modélise la prise de décision en contexte incertain via la **simulation à événements discrets**, une méthode puissante pour analyser l’évolution dynamique de systèmes complexes.
 
-This original project proposes simulation-based optimization tools for inventory and supply chain systems. It models decision-making under uncertainty using discrete event simulation, which is a powerful method for analyzing how complex systems evolve over time.
+---
 
-## Learning Objectives
+## Objectifs d’apprentissage
 
-Through this project, we aim to:
+À travers ce projet, nous visons à :
 
-* Develop a clear understanding of discrete event simulation models applied to supply chain management.
-* Analyze the structure and functioning of an academic codebase.
-* Adapt, extend, or experiment with the provided models to explore new research or practical use cases.
-* Improve our ability to communicate technical findings in a clear and structured way.
+- Comprendre les modèles de simulation à événements discrets appliqués à la **gestion de la chaîne d’approvisionnement**.
+- Analyser la structure et le fonctionnement d’un code académique existant.
+- Adapter, expérimenter ou étendre les modèles pour explorer de nouveaux cas d’usage ou pistes de recherche.
+- Développer notre capacité à communiquer des résultats techniques de façon claire et structurée.
 
-## Repository Content
+## Contenu du dépôt
 
-This repository includes:
+Le dépôt contient :
 
-* Our adapted and restructured code derived from the original InventOpt project.
-* Experimentation files and test cases.
-* Notes and documentation summarizing our analysis of the model.
-* A progressive report detailing our work and reflections during the workshop sessions.
+- Le code adapté et restructuré à partir du projet original *InventOpt*.
+- Des fichiers d’expérimentation et des cas de test.
+- Des notes et une documentation résumant notre analyse du modèle.
+- Un rapport progressif retraçant notre travail et nos réflexions tout au long de l’atelier.
 
-## Broader Goals
+## Objectifs plus larges
 
-By engaging in this activity, we are not only applying technical skills, but also learning how to approach scientific work critically. The ability to understand and build upon existing research is key for careers in both academia and industry. This workshop is a first step in that direction.
+Au-delà de l’aspect technique, cet atelier nous initie à une approche critique de la recherche scientifique. La capacité à s’approprier, analyser et prolonger des travaux existants est essentielle, que ce soit dans le monde universita
