@@ -2,3 +2,4 @@
 Soutenance/
 # Ignore Python files in notebooks directory
 supply_chain_optimization_demo/notebooks/*.py
+supply_chain_optimization_demo/notebooks/03_exploration_visualisation.py
