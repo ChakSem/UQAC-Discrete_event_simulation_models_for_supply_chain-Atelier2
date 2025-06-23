@@ -1,2 +1,4 @@
 # Ignore soutenance directory
 Soutenance/
+# Ignore Python files in notebooks directory
+supply_chain_optimization_demo/notebooks/*.py
